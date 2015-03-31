@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'polyregular';
+    src: url(Poly-Regular-webfont.eot);
+    src: url('/css/Poly-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/css/Poly-Regular-webfont.woff2') format('woff2'),
+         url('/css/Poly-Regular-webfont.woff') format('woff'),
+         url('/css/Poly-Regular-webfont.ttf') format('truetype'),
+         url('/css/Poly-Regular-webfont.svg#polyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	font-family: polyregular;
+	font-weight: normal;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
+	color: black;	
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #777;
+}
+
+img {
+
+	height:auto;
+	max-height:908px;
+}
+a {
+ 	color: black;
+}
+
+a > img {
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%); 
+}
+
+a:hover > img {
+	 -webkit-filter: none; 
+	 filter: none; 
+}
+
+p, li {
+	font-weight: 300;
+	font-size:16pt;
+}
+
+.post-content {
+	max-width:600px;
+}
+
+.description h1 {
+	letter-spacing: 2px;
+}
+
+.navbar-brand {
+	font-size:16pt;
+}
+
+.navbar {
+	background-color: white;
+	border:none;
+}
+
+.thumbnail {
+	border:none;
+}
+
+.thumbnail > p {
+	text-align:center;
+}
+
+.description {
+	text-align: center;
+	padding-bottom:40px;
+}
+
+.image {
+	margin:20px;
+}
