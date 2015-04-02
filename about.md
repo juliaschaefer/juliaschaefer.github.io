@@ -9,7 +9,7 @@ Education
 
 * 2011–2015: Visual Communication at the ZHdK, Zurich 
 * 2010–2011: Foundation course, Schule für Gestaltung, Basel
-* 2013:	Exchange Year in at the University of the West of England, Bristol UK
+* 2013:	Exchange Year at the University of the West of England, Bristol UK
 
 <br /> 
 Work Experience
