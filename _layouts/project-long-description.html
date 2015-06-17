@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  {% include head.html %}
+
+  <body>
+
+    {% include navbar.html %}
+
+    <div class="container">
+      <div class="row description">
+        <div class="col-md-2 col-ms-3 hidden-xs"></div>
+        <div class="col-md-8 col-ms-6 col-xs-12">
+            <h1 class="text-center">{{ page.title }}</h1>  
+            <h2 style="margin-top: 10px; margin-bottom:20px"class="text-center">{{ page.subtitle }}</h2>  
+            <p class="text-left">{{ page.description }}</p>  
+        </div>
+        <div class="col-md-2 col-ms-3 hidden-xs"></div>
+      </div>
+
+ {% for image in page.images %}
+    <div class="row image">
+      <div class="col-md-12"><img class="img-responsive center-block" src="{{ image }}" alt="..."></div>
+    </div>
+{% endfor %}
+
+  </body>
+</html>
