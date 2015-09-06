@@ -2,7 +2,8 @@
 layout: page
 permalink: /about/
 ---
-I study Visual Communication at the Zurich University of the Arts. This summer I will graduate with a Bachelor's degree in Arts. If you have any questions feel free to contact: schaefer.jula@gmail.com
+In 2015, I graduated with a Bachelor's degree in Arts from Zurich University of the Arts ZHdK. 
+If you have any questions feel free to contact me at: julia.laura.schaefer@gmail.com
 
 <br /> 
 Education 
@@ -14,5 +15,6 @@ Education
 <br /> 
 Work Experience
 
-* 2013: Six months internship at Rob & Rose, Zurich
-* Since 2011: Scientific assistant for Professor Rudolf Barmettler at ZHdK Department of Design
+* 2015: Internship at 100und1, Vienna 
+* 2013: Internship at Rob & Rose, Zurich
+* Since 2011: Scientific assistant for Prof. Rudolf Barmettler at ZHdK Department of Design
