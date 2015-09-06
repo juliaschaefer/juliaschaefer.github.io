@@ -8,9 +8,9 @@ If you have any questions feel free to contact me at: julia.laura.schaefer@gmail
 <br /> 
 Education 
 
-* 2011–2015: Visual Communication at the ZHdK, Zurich 
-* 2010–2011: Foundation course, Schule für Gestaltung, Basel
+* 2011–2015: Visual Communication at the ZHdK, Zurich
 * 2013:	Exchange Year at the University of the West of England, Bristol UK
+* 2010–2011: Foundation course, Schule für Gestaltung, Basel
 
 <br /> 
 Work Experience
