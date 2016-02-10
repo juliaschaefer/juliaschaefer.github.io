@@ -27,6 +27,7 @@ function onLoad() {
   }
 
   var onscroll = function(){
+    console.log("scrolling")
     pos =  $(window).scrollTop();
     index = Math.floor(pos / height) + 1 % pages.length;
     if ($(window).scrollTop() + $(window).height() >= $(document).height() || index >= pages.length) {
