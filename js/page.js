@@ -1,4 +1,4 @@
-;(function() {
+/*;(function() {
     var throttle = function(type, name, obj) {
         obj = obj || window;
         var running = false;
@@ -13,7 +13,7 @@
         obj.addEventListener(type, func);
     };
     throttle ("scroll", "optimizedScroll");
-})();
+})();*/
 
 function onLoad() {
   var height = $(window).height();
@@ -29,7 +29,7 @@ function onLoad() {
   var onscroll = function(){
     pos =  $(window).scrollTop();
     index = Math.floor(pos / height) + 1 % pages.length;
-    if ($(window).scrollTop() + $(window).height() >= $(document).height() || index >= pages.length) {
+    if (pos + height >= $(document).height() || index >= pages.length) {
       reset();
       window.scrollTo(0,0);
     } else {
@@ -38,15 +38,19 @@ function onLoad() {
       document.getElementById('menu').style.top = pos % height + 'px';
       if (index > 0) {
         pages[index-1].style.height = height + 'px';
+      } if (index > 1) {
+        pages[index-2].style.height = 0 + 'px';
       }
       if (index < pages.length-1) {
         pages[index+1].style.height = '0px';
       }
-
     }
+
+    each(pages, function(index, element) {element.style.zIndex = index * 10;});
+
   };
 
-  window.addEventListener("optimizedScroll", onscroll);
+  window.addEventListener("scroll", onscroll);
   window.addEventListener("resize", function() {
     height = $(window).height();
     window.scrollTo(0, Math.max(0, (index-1) * height)); // jump to top of current page
