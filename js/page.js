@@ -35,7 +35,7 @@ function onLoad() {
     } else {
       var scrollPos = pos % height;
       pages[index].style.height = scrollPos + 'px';
-      document.getElementById('menu').style.top = pos % height + 'px';
+      document.getElementById('scroll-effect').style.top = pos % height + 'px';
       if (index > 0) {
         pages[index-1].style.height = height + 'px';
       } if (index > 1) {
