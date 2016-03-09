@@ -17,15 +17,14 @@ html, body{
   width: 1.5em;
   height: 100%;
   z-index:500;
+  color: white;
+}
+
+#go-top {
+  text-align: center;
 }
 
 #about {
-  position:absolute;
-  top:3em;
-  left:0.2em;
-}
-
-#work {
   position:absolute;
   bottom:-0.8em;
 
