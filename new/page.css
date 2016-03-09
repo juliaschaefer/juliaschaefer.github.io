@@ -79,6 +79,13 @@ html, body{
   width:auto;
   display: block;
 }
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
 
 .red {
   background-color: rgb(230, 110, 110);
