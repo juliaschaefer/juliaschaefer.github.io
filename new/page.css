@@ -16,7 +16,7 @@ html, body{
   position:fixed;
   width: 1.5em;
   height: 100%;
-  z-index:2000;
+  z-index:500;
 }
 
 #about {
