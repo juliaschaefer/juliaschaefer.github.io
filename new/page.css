@@ -11,10 +11,10 @@ html, body{
 
 #menu {
   font-family: 'texgyreherosregular', sans-serif;
-  font-size: 2em;
+  font-size: 1.8em;
   background-color: black;
   position:fixed;
-  width: 1.5em;
+  width: 1.7em;
   height: 100%;
   z-index:500;
 }
@@ -27,7 +27,7 @@ html, body{
 
 #about {
   position:absolute;
-  bottom:-0.8em;
+  bottom:-0.2em;
 
   left: 0.2em;
 }
