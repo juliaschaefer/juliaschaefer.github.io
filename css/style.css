@@ -12,12 +12,12 @@
 }
 
 body {
-	font-family: polyregular;
+	font-family: 'polyregular';
 	font-weight: normal;
 }
 
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
-	color: black;	
+	color: black;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -34,13 +34,13 @@ a {
 }
 
 a > img {
-	-webkit-filter: grayscale(100%); 
-	filter: grayscale(100%); 
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
 a:hover > img {
-	 -webkit-filter: none; 
-	 filter: none; 
+	 -webkit-filter: none;
+	 filter: none;
 }
 
 p, li {

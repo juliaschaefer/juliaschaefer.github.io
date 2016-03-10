@@ -3,3 +3,4 @@ The following directories and their contents are Copyright Julia Schäfer. You m
 
 * portfolio/
 * img/
+* frontpage/

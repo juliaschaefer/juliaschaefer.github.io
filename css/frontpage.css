@@ -1,0 +1,98 @@
+html, body{
+  border:0; margin:0; padding:0;
+}
+
+#content {
+  position:fixed;
+  background-color: black;
+  width:100%;
+}
+
+.left-align {
+  float:left;
+  margin-left: 0.5em;
+}
+
+.right-align {
+  float:right;
+  margin-right: 0.5em;
+}
+
+.rotated {
+      -ms-transform:translate(0, 100vh) rotate(270deg);
+     -moz-transform:translate(0, 100vh) rotate(270deg);
+  -webkit-transform:translate(0, 100vh) rotate(270deg);
+       -o-transform:translate(0, 100vh) rotate(270deg);
+          transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+     -moz-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+       -o-transform-origin: 0 0;
+    white-space: nowrap;
+    overflow: visible;
+}
+
+.menu {
+  font-family: 'texgyreherosregular', sans-serif;
+  font-size: 1.8em;
+  background-color: black;
+  width: 100vh;
+  height: 1.5em;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: white;
+  text-decoration: underline;
+  top:0em;
+}
+
+#scroll-effect {
+  position:absolute;
+  height:20px;
+  width:100%;
+  z-index: 1000;
+  background: black; /* For browsers that do not support gradients */
+/ background: -webkit-linear-gradient(lightgray, rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+  background:      -o-linear-gradient(lightgray, rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+  background:    -moz-linear-gradient(lightgray, rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+  background:         linear-gradient(lightgray, rgba(0,0,0,0)); /* Standard syntax (must be last) */
+}
+
+.page {
+  position:fixed;
+  top: 0px;
+  left: 0px;
+  width:100%;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+.page-element {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  height:100vh;
+
+}
+
+.centered {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+        transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+   -moz-transform:translate(-50%, -50%);
+-webkit-transform:translate(-50%, -50%);
+     -o-transform:translate(-50%, -50%);
+}
+
+.black {
+  background-color: rgb(0, 0, 0);
+  color:white;
+  font-size:16px;
+}

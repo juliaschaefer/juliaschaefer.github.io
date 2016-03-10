@@ -4,3 +4,5 @@ email: your-email@domain.com
 url: "http://juliaschaefer.ch"
 # Build settings
 markdown: kramdown
+collections:
+  - frontpage

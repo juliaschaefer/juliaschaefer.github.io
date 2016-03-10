@@ -21,8 +21,13 @@ function onLoad() {
   var pos = $(window).scrollTop();
   var index = Math.floor(pos / height) + 1 % pages.length;
 
+
+  var hidePage = function(index) {
+    pages[index].style.height = '0px';
+  }
+
   var reset = function () {
-    each(pages, function(index, element) {element.style.height = '0px';});
+    each(pages, hidePage);
     pages[0].style.height = height + 'px';
   }
 
@@ -46,7 +51,7 @@ function onLoad() {
       }
     }
 
-    each(pages, function(index, element) {element.style.zIndex = index * 10;});
+  //  each(pages, function(index, element) {element.style.zIndex = pages.length * 10 - index * 10;});
 
   };
 
