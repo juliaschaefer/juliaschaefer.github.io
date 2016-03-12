@@ -1,4 +1,6 @@
 html, body{
+
+  font-family: 'texgyreherosregular', sans-serif;
   border:0; margin:0; padding:0;
 }
 
@@ -33,7 +35,6 @@ html, body{
 }
 
 .menu {
-  font-family: 'texgyreherosregular', sans-serif;
   font-size: 1.8em;
   background-color: black;
   width: 100vh;
