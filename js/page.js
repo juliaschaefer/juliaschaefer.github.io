@@ -15,17 +15,23 @@
     throttle ("scroll", "optimizedScroll");
 })();*/
 
+
+function each(array, callback) {
+  for (var i = 0; i < array.length; i++) {
+    callback(i, array[i]);
+  }
+}
+
 function onLoad() {
   var height = $(window).height();
   var pages = document.body.getElementsByClassName('page');
   var pos = $(window).scrollTop();
   var index = Math.floor(pos / height) + 1 % pages.length;
 
-
   var hidePage = function(index) {
     pages[index].style.height = '0px';
   }
-
+  
   var reset = function () {
     each(pages, hidePage);
     pages[0].style.height = height + 'px';
@@ -43,16 +49,14 @@ function onLoad() {
       document.getElementById('scroll-effect').style.top = pos % height + 'px';
       if (index > 0) {
         pages[index-1].style.height = height + 'px';
-      } if (index > 1) {
-        pages[index-2].style.height = 0 + 'px';
+      }
+      if (index > 1) {
+        hidePage(index-2);
       }
       if (index < pages.length-1) {
-        pages[index+1].style.height = '0px';
+        hidePage(index+1);
       }
     }
-
-  //  each(pages, function(index, element) {element.style.zIndex = pages.length * 10 - index * 10;});
-
   };
 
   window.addEventListener("scroll", onscroll);
@@ -66,10 +70,5 @@ function onLoad() {
   document.body.style.height = pages.length * height + 'px';
 }
 
-function each(array, callback) {
-  for (var i = 0; i < array.length; i++) {
-    callback(i, array[i]);
-  }
-}
 
 $(document).ready(onLoad);
