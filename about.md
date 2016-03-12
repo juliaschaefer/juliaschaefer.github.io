@@ -2,23 +2,19 @@
 layout: page
 permalink: /about/
 ---
-CV
+In 2015, I graduated with a Bachelor's degree in Arts from Zurich University of the Arts ZHdK. 
+If you have any questions feel free to contact me at: julia.laura.schaefer@gmail.com
 
- Graphic Designer at 100und1 since 2015<br />
-Vienna
+<br /> 
+Education 
 
-ZHdK <br/>
-Bachelor of Arts in Design<br/>
-Visuelle Kommunikation<br/>
-Zurich
-2015
+* 2011–2015: Visual Communication at the ZHdK, Zurich
+* 2013:	Exchange Year at the University of the West of England, Bristol UK
+* 2010–2011: Foundation course, Schule für Gestaltung, Basel
 
-University of the West of England
-Bristol UK
-2013
+<br /> 
+Work Experience
 
-Rob&Rose
-Zurich
-2013
-
-Contact info: julia.laura.schaefer@gmail.com
+* 2015: Internship at 100und1, Vienna 
+* 2013: Internship at Rob & Rose, Zurich
+* Since 2011: Scientific assistant for Prof. Rudolf Barmettler at ZHdK Department of Design
