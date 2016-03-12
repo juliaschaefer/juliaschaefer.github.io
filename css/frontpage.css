@@ -1,23 +1,21 @@
-html, body{
-
+html, body {
   font-family: 'texgyreherosregular', sans-serif;
   border:0; margin:0; padding:0;
 }
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
 
 #content {
   position:fixed;
   background-color: black;
   width:100%;
-}
-
-.left-align {
-  float:left;
-  margin-left: 0.5em;
-}
-
-.right-align {
-  float:right;
-  margin-right: 0.5em;
 }
 
 .rotated {
@@ -41,15 +39,8 @@ html, body{
   height: 1.5em;
 }
 
-.menu a {
-  color: white;
+a:hover {
   text-decoration: none;
-}
-
-.menu a:hover {
-  color: white;
-  text-decoration: underline;
-  top:0em;
 }
 
 #scroll-effect {
@@ -78,7 +69,6 @@ html, body{
   background-position: 50% 50%;
   background-size: cover;
   height:100vh;
-
 }
 
 .centered {
