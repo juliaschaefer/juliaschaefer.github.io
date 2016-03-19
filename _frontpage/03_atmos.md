@@ -2,5 +2,5 @@
 title: Atmos
 images:
 - atmos.jpg
-portfolio: ../
+portfolio: atmos
 ---
