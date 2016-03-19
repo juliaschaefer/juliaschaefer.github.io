@@ -1,21 +1,3 @@
-/*;(function() {
-    var throttle = function(type, name, obj) {
-        obj = obj || window;
-        var running = false;
-        var func = function() {
-            if (running) { return; }
-            running = true;
-            requestAnimationFrame(function() {
-                obj.dispatchEvent(new CustomEvent(name));
-                running = false;
-            });
-        };
-        obj.addEventListener(type, func);
-    };
-    throttle ("scroll", "optimizedScroll");
-})();*/
-
-
 function each(array, callback) {
   for (var i = 0; i < array.length; i++) {
     callback(i, array[i]);
@@ -28,10 +10,11 @@ function onLoad() {
   var pos = $(window).scrollTop();
   var index = Math.floor(pos / height) + 1 % pages.length;
 
+ var scrollEffect = document.getElementById('scroll-effect');
   var hidePage = function(index) {
     pages[index].style.height = '0px';
   }
-  
+
   var reset = function () {
     each(pages, hidePage);
     pages[0].style.height = height + 'px';
@@ -46,7 +29,7 @@ function onLoad() {
     } else {
       var scrollPos = pos % height;
       pages[index].style.height = scrollPos + 'px';
-      document.getElementById('scroll-effect').style.top = pos % height + 'px';
+      scrollEffect.style.top = pos % height + 'px';
       if (index > 0) {
         pages[index-1].style.height = height + 'px';
       }
