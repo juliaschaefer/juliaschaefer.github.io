@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
+
   {% include head.html %}
 
   <body>
 
+    {% if page.navbar_off == blank %}
     {% include navbar.html %}
-    
+    {% endif %}
+
+
     {{ content }}
 
   </body>

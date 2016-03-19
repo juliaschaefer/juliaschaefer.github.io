@@ -1,20 +1,35 @@
 ---
 layout: page
+navbar_off: true
 permalink: /about/
 ---
-In 2015, I graduated with a Bachelor's degree in Arts from Zurich University of the Arts ZHdK. 
-If you have any questions feel free to contact me at: julia.laura.schaefer@gmail.com
+<span class='hvr-skew-forward' style='display:block;'><a href='/'>Julia Schäfer</a></span>
 
-<br /> 
-Education 
 
-* 2011–2015: Visual Communication at the ZHdK, Zurich
-* 2013:	Exchange Year at the University of the West of England, Bristol UK
-* 2010–2011: Foundation course, Schule für Gestaltung, Basel
+ <span class='hvr-skew-forward' style='display:block;'><a href='http://100und1.com/'>Graphic Designer at 100und1</a></span>
+Vienna<br/>
+since 2015
 
-<br /> 
-Work Experience
+<br/>
 
-* 2015: Internship at 100und1, Vienna 
-* 2013: Internship at Rob & Rose, Zurich
-* Since 2011: Scientific assistant for Prof. Rudolf Barmettler at ZHdK Department of Design
+ZHdK<br/>
+Bachelor of Arts in Design, Visuelle Kommunikation<br/>
+Zurich<br/>
+2011 - 2015
+
+<br/>
+
+University of the West of England<br/>
+Bristol UK<br/>
+2013
+
+<br/>
+
+<span class='hvr-skew-forward' style='display:block;'><a href='http://www.robandrose.ch/'>Internship at  Rob&Rose</a></span>
+Zurich<br/>
+2013
+
+<br/>
+
+Feel free to contact:
+julia.laura.schaefer@gmail.com
